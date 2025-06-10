@@ -28,12 +28,12 @@ R² (Coefficient of Determination): 0.12
 
 The model was observed to have very low accuracy.
 
-### Test and Training Set Comparison:
+**Test and Training Set Comparison:**
 Training set error is low, test set error is high → Overfitting probability.
 
 The generalizability of the model was low.
 
-### Learning Curve:
+**Learning Curve:**
 train_score and test_score stabilize over time.
 Even if the amount of data is increased, the capacity of the model seems to be limited.
 
