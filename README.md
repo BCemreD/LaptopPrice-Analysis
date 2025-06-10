@@ -1,4 +1,5 @@
 # laptop_price_analysis
+
 ##Tools
 * Python 3.x
 * Pandas, NumPy
