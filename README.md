@@ -1,6 +1,6 @@
 # laptop_price_analysis
 
-##Tools
+## Tools
 * Python 3.x
 * Pandas, NumPy
 * Scikit-learn
@@ -18,26 +18,26 @@ Missing values and categorical variables are handled.
 * Necessary columns were selected and X (independent variables) and y (dependent variable/price) were separated.
 * Pre-modeling transformations were prepared to suit the pipeline structure.
 
-##Model
+## Model
 Lineer Regression and Random Forest Models are set to compare.
 
-##Model Performance
+## Model Performance
 RainForest:
 MSE (Mean Squared Error): 53119.40
 R² (Coefficient of Determination): 0.12
 
 The model was observed to have very low accuracy.
 
-###Test and Training Set Comparison:
+### Test and Training Set Comparison:
 Training set error is low, test set error is high → Overfitting probability.
 
 The generalizability of the model was low.
 
-###Learning Curve:
+### Learning Curve:
 train_score and test_score stabilize over time.
 Even if the amount of data is increased, the capacity of the model seems to be limited.
 
-##Visualizations
+## Visualizations
 Model Performance Graph:
 * MSE and R² comparisons are presented visually.
 * The response of training and test scores to data growth is examined.
